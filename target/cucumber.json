@@ -1,0 +1,113 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-01-04T06:59:28.910Z",
+        "before": [
+          {
+            "result": {
+              "duration": 977922,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "login as a given user",
+        "description": "",
+        "id": "contacts-page;login-as-a-given-user",
+        "after": [
+          {
+            "result": {
+              "duration": 1192993079,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 40589487197,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3565007949,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the user logs in using following credentials",
+            "match": {
+              "location": "ContactsStepDefs.the_user_logs_in_using_following_credentials(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "fname",
+                  "James"
+                ]
+              },
+              {
+                "cells": [
+                  "username",
+                  "user1"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "UserUser123"
+                ]
+              },
+              {
+                "cells": [
+                  "lname",
+                  "Bond"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2087558721,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the user should be able to login",
+            "match": {
+              "location": "LoginStepDefs.the_user_should_be_able_to_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@007"
+          }
+        ]
+      }
+    ],
+    "name": "Contacts page",
+    "description": "",
+    "id": "contacts-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Contacts.feature",
+    "tags": []
+  }
+]
